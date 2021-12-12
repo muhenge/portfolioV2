@@ -5,6 +5,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {BrowserRouter} from 'react-router-dom';
+import 'animate.css/animate.min.css';
+import {} from '@fortawesome/fontawesome-svg-core';
+import {} from '@fortawesome/free-solid-svg-icons';
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>

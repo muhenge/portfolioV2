@@ -10,7 +10,7 @@ function App() {
     <div className="container-fluid">
        <div class="row flex-nowrap">
           <Aside />
-          <div class="col py-3">
+          <div class="col py-3 animate__animated animate__fadeInRight">
           <Routes>
             <Route path="/" element={<Intro />} />
             <Route path="/about" element={<About />} />
