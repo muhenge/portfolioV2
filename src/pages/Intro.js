@@ -1,158 +1,26 @@
-import React from 'react'
+import React from "react";
 
 function Intro() {
   return (
-    <div className="container">
-      <h1>Intro</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-        nisi euismod, porttitor nisl eu, tincidunt nisl. Nullam euismod
-        dignissim nisi, eu aliquam eros. Nulla facilisi. Nulla facilisi.
-        Pellentesque habitant morbi tristique senectus et netus et malesuada
-        fames ac turpis egestas.
-        lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-        nisi euismod, porttitor nisl eu, tincidunt nisl. Nullam euismod
-        dignissim nisi, eu aliquam eros. Nulla facilisi. Nulla facilisi.
-        Pellentesque habitant morbi tristique senectus et netus et malesuada
-        fames ac turpis egestas.
-        lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-        nisi euismod, porttitor nisl eu, tincidunt nisl. Nullam euismod
-        dignissim nisi, eu aliquam eros. Nulla facilisi. Nulla facilisi.
-        Pellentesque habitant morbi tristique senectus et netus et malesuada
-        lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-        lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-        nisi euismod, porttitor nisl eu, tincidunt nisl. Nullam euismod
-        dignissim nisi, eu aliquam eros. Nulla facilisi. Nulla facilisi.
-        Pellentesque habitant morbi tristique senectus et netus et malesuada
-        fames ac turpis egestas.
-        lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-        nisi euismod, porttitor nisl eu, tincidunt nisl. Nullam euismod
-        dignissim nisi, eu aliquam eros. Nulla facilisi. Nulla facilisi.
-        Pellentesque habitant morbi tristique senectus et netus et malesuada
-        fames ac turpis egestas.
-        lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-        nisi euismod, porttitor nisl eu, tincidunt nisl. Nullam euismod
-        dignissim nisi, eu aliquam eros. Nulla facilisi. Nulla facilisi.
-        Pellentesque habitant morbi tristique senectus et netus et malesuada
-        lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-        lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-        nisi euismod, porttitor nisl eu, tincidunt nisl. Nullam euismod
-        dignissim nisi, eu aliquam eros. Nulla facilisi. Nulla facilisi.
-        Pellentesque habitant morbi tristique senectus et netus et malesuada
-        fames ac turpis egestas.
-        lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-        nisi euismod, porttitor nisl eu, tincidunt nisl. Nullam euismod
-        dignissim nisi, eu aliquam eros. Nulla facilisi. Nulla facilisi.
-        Pellentesque habitant morbi tristique senectus et netus et malesuada
-        fames ac turpis egestas.
-        lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-        nisi euismod, porttitor nisl eu, tincidunt nisl. Nullam euismod
-        dignissim nisi, eu aliquam eros. Nulla facilisi. Nulla facilisi.
-        Pellentesque habitant morbi tristique senectus et netus et malesuada
-        lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-        lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-        nisi euismod, porttitor nisl eu, tincidunt nisl. Nullam euismod
-        dignissim nisi, eu aliquam eros. Nulla facilisi. Nulla facilisi.
-        Pellentesque habitant morbi tristique senectus et netus et malesuada
-        fames ac turpis egestas.
-        lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-        nisi euismod, porttitor nisl eu, tincidunt nisl. Nullam euismod
-        dignissim nisi, eu aliquam eros. Nulla facilisi. Nulla facilisi.
-        Pellentesque habitant morbi tristique senectus et netus et malesuada
-        fames ac turpis egestas.
-        lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-        nisi euismod, porttitor nisl eu, tincidunt nisl. Nullam euismod
-        dignissim nisi, eu aliquam eros. Nulla facilisi. Nulla facilisi.
-        Pellentesque habitant morbi tristique senectus et netus et malesuada
-        lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-        lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-        lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-        nisi euismod, porttitor nisl eu, tincidunt nisl. Nullam euismod
-        dignissim nisi, eu aliquam eros. Nulla facilisi. Nulla facilisi.
-        Pellentesque habitant morbi tristique senectus et netus et malesuada
-        fames ac turpis egestas.
-        lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-        nisi euismod, porttitor nisl eu, tincidunt nisl. Nullam euismod
-        dignissim nisi, eu aliquam eros. Nulla facilisi. Nulla facilisi.
-        Pellentesque habitant morbi tristique senectus et netus et malesuada
-        lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-        lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-        nisi euismod, porttitor nisl eu, tincidunt nisl. Nullam euismod
-        dignissim nisi, eu aliquam eros. Nulla facilisi. Nulla facilisi.
-        Pellentesque habitant morbi tristique senectus et netus et malesuada
-        fames ac turpis egestas.
-        lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-        nisi euismod, porttitor nisl eu, tincidunt nisl. Nullam euismod
-        dignissim nisi, eu aliquam eros. Nulla facilisi. Nulla facilisi.
-        Pellentesque habitant morbi tristique senectus et netus et malesuada
-        fames ac turpis egestas.
-        lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-        nisi euismod, porttitor nisl eu, tincidunt nisl. Nullam euismod
-        dignissim nisi, eu aliquam eros. Nulla facilisi. Nulla facilisi.
-        Pellentesque habitant morbi tristique senectus et netus et malesuada
-        lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-        lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-        lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-        nisi euismod, porttitor nisl eu, tincidunt nisl. Nullam euismod
-        dignissim nisi, eu aliquam eros. Nulla facilisi. Nulla facilisi.
-        Pellentesque habitant morbi tristique senectus et netus et malesuada
-        fames ac turpis egestas.
-        lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-        nisi euismod, porttitor nisl eu, tincidunt nisl. Nullam euismod
-        dignissim nisi, eu aliquam eros. Nulla facilisi. Nulla facilisi.
-        Pellentesque habitant morbi tristique senectus et netus et malesuada
-        lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-        lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-        nisi euismod, porttitor nisl eu, tincidunt nisl. Nullam euismod
-        dignissim nisi, eu aliquam eros. Nulla facilisi. Nulla facilisi.
-        Pellentesque habitant morbi tristique senectus et netus et malesuada
-        fames ac turpis egestas.
-        lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-        nisi euismod, porttitor nisl eu, tincidunt nisl. Nullam euismod
-        dignissim nisi, eu aliquam eros. Nulla facilisi. Nulla facilisi.
-        Pellentesque habitant morbi tristique senectus et netus et malesuada
-        fames ac turpis egestas.
-        lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-        nisi euismod, porttitor nisl eu, tincidunt nisl. Nullam euismod
-        dignissim nisi, eu aliquam eros. Nulla facilisi. Nulla facilisi.
-        Pellentesque habitant morbi tristique senectus et netus et malesuada
-        lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-        lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-        lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-        nisi euismod, porttitor nisl eu, tincidunt nisl. Nullam euismod
-        dignissim nisi, eu aliquam eros. Nulla facilisi. Nulla facilisi.
-        Pellentesque habitant morbi tristique senectus et netus et malesuada
-        fames ac turpis egestas.
-        lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-        nisi euismod, porttitor nisl eu, tincidunt nisl. Nullam euismod
-        dignissim nisi, eu aliquam eros. Nulla facilisi. Nulla facilisi.
-        Pellentesque habitant morbi tristique senectus et netus et malesuada
-        lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-        lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-        nisi euismod, porttitor nisl eu, tincidunt nisl. Nullam euismod
-        dignissim nisi, eu aliquam eros. Nulla facilisi. Nulla facilisi.
-        Pellentesque habitant morbi tristique senectus et netus et malesuada
-        fames ac turpis egestas.
-        lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-        nisi euismod, porttitor nisl eu, tincidunt nisl. Nullam euismod
-        dignissim nisi, eu aliquam eros. Nulla facilisi. Nulla facilisi.
-        Pellentesque habitant morbi tristique senectus et netus et malesuada
-        fames ac turpis egestas.
-        lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-        nisi euismod, porttitor nisl eu, tincidunt nisl. Nullam euismod
-        dignissim nisi, eu aliquam eros. Nulla facilisi. Nulla facilisi.
-        Pellentesque habitant morbi tristique senectus et netus et malesuada
-        lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-        lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-      </p>
-    </div>
-  )
-}
+    <div className="container animate__animated animate__fadeInRight">
+      <div className="row m-lg-5 my-lg-5">
+        <div className="col col-sm-12 col-md-12 text-lg-center border p-5 shadow-lg">
+          <code class="text-dark">
+            <h4 className="border p-2 bg-dark text-light editable" contenteditable="true">console.log("Hello World");_</h4><br/>
+            <span className="display-5">I am NGENZI MUGUNGA HERVE</span>
+            <h3 className="display">I am a web and a software developer</h3>
+            <span className="">Back-end</span> | <span className="text-center text secondary">Front-end</span> | <span className="text-center text secondary">Full-stack</span>
+          </code>
+          <div/>
+        </div>
+        <div className="my-5 mt-5">
+          <h5 className="text-center">
+            Using modern technology, I can help you to build your next project.
+          </h5>
+        </div>
+      </div>
 
-export default Intro
+    </div>
+  );
+}
+export default Intro;
