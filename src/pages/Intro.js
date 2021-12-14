@@ -4,7 +4,7 @@ function Intro() {
   return (
     <div className="container animate__animated animate__fadeInRight">
       <div className="row m-lg-5 my-lg-5">
-        <div className="col col-sm-12 col-md-12 text-lg-center border p-5 shadow-lg">
+        <div className="col col-sm-12 col-md-12 text-lg-center border p-5 shadow">
           <code class="text-dark">
             <h4 className="border p-2 bg-dark text-light editable" contenteditable="true">console.log("Hello World");_</h4><br/>
             <span className="display-5">I am NGENZI MUGUNGA HERVE</span>
