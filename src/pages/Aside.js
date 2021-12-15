@@ -9,7 +9,6 @@ import './aside.css'
 
 export default function Aside() {
   return (
-      
     <>
       <div class="col-auto col-md-3 col-xl-2 px-sm-2 border-end px-0 bg-light animate__animated animate__fadeInLeft position-sticky top-0 start-0 h-100">
             <div class="d-flex flex-column align-items-center align-content-between align-items-sm-start px-3 pt-2 text-white min-vh-100">
