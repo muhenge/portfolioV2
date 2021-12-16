@@ -7,7 +7,7 @@ function Intro() {
         <div className="col col-sm-12 col-md-12 text-lg-center border p-5 shadow">
           <code class="text-dark">
             <h4 className="border p-2 bg-dark text-light editable" contenteditable="true">console.log("Hello World");_</h4><br/>
-            <span className="display-5">I am NGENZI MUGUNGA HERVE</span>
+            <span className="display-5">I am NGENZI</span>
             <h3 className="display">I am a web and a software developer</h3>
             <span className="">Back-end</span> | <span className="text-center text secondary">Front-end</span> | <span className="text-center text secondary">Full-stack</span>
           </code>
