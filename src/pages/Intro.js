@@ -19,8 +19,8 @@ function Intro() {
           </h5>
         </div>
       </div>
-
-    </div>
-  );
+    </div>  
+    );
 }
+
 export default Intro;

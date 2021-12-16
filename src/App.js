@@ -7,7 +7,6 @@ import Contact from './pages/Contact';
 import './App.css';
 function App() {
   return (
-  
     <div className="container-fluid">
        <div class="row flex-nowrap">
           <Aside />
@@ -21,8 +20,6 @@ function App() {
           </Routes>
           </div>
        </div>
-      
-    
     </div>
   );
 }
