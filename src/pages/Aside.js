@@ -7,7 +7,6 @@ import './aside.css'
 import classes from './Aside.module.css'
 export default function Aside() {
   return (
-      
     <>
       <div className="col-auto col-md-3 col-xl-2 px-sm-2 border-end px-0 bg-light animate__animated animate__fadeInLeft position-sticky top-0 start-0 h-100">
             <div class="d-flex flex-column align-items-center align-content-between align-items-sm-start px-3 pt-2 text-white min-vh-100">
@@ -26,9 +25,9 @@ export default function Aside() {
                         <FontAwesomeIcon icon={faLaptopCode}></FontAwesomeIcon> <span class="ms-1 d-none d-sm-inline">Side Projects</span>
                         </Link>
                     </li>
-                    <li className="nav-item nav-item border border-3 w-100 mb-5">
-                        <Link to="/contact" class="nav-link text-dark link">
-                        <FontAwesomeIcon icon={faEnvelopeOpenText}></FontAwesomeIcon> <span class="ms-1 d-none d-sm-inline">Contact</span> </Link>
+                    <li class="nav-item nav-item border border-3 w-100 mb-5 ">
+                        <Link to="/contact" class="nav-link text-dark">
+                        <FontAwesomeIcon icon={faEnvelopeOpenText}></FontAwesomeIcon> <span class="ms-1 d-none d-sm-inline">Get Contactin touch</span> </Link>
                     </li>
                 </ul>
                 <div>
