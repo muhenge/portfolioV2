@@ -27,7 +27,7 @@ export default function Aside() {
                     </li>
                     <li class="nav-item nav-item border border-3 w-100 mb-5 ">
                         <Link to="/contact" class="nav-link text-dark">
-                        <FontAwesomeIcon icon={faEnvelopeOpenText}></FontAwesomeIcon> <span class="ms-1 d-none d-sm-inline">Get Contactin touch</span> </Link>
+                        <FontAwesomeIcon icon={faEnvelopeOpenText}></FontAwesomeIcon> <span class="ms-1 d-none d-sm-inline">Get in touch</span> </Link>
                     </li>
                 </ul>
                 <div>
