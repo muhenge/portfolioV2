@@ -23,7 +23,7 @@ function About() {
           <h3 className="">About Me</h3>
           <code className="text-dark text-sm-center my-3">
             I enjoy creating things that solve problems. I am a full-stack
-            developer with a passion for building things
+            developer with a passion for building things, I am currently working as a <strong>Backend Developer</strong>.
           </code>
           <h5 className="mt-4">What I can offer</h5>
           <code className="text-dark ">
