@@ -20,17 +20,34 @@ function About() {
     <div className="container animate__animated animate__fadeInRight ">
       <div className="row">
         <div className="col col-md-4 p-5 border-end shadow position-sticky top-0 start-0">
-          <h4 className="">About Me</h4>
+          <h3 className="">About Me</h3>
           <code className="text-dark text-sm-center my-3">
             I enjoy creating things that solve problems. I am a full-stack
             developer with a passion for building things
           </code>
-          <h4 className="mt-4">What I can offer</h4>
-          <code className="text-dark text-sm-center">
+          <h5 className="mt-4">What I can offer</h5>
+          <code className="text-dark ">
+          <h5>
+              <FontAwesomeIcon icon={faLaptopCode}></FontAwesomeIcon>Back-end web
+              development
+            </h5>
+            <p>
+              I use back-end frameworks to build web applications. I am familiar with, <strong>Object Oriented Programming, MVC design patterns</strong> and <strong> RESTful APIs</strong>.
+            </p>
             <h5>
               <FontAwesomeIcon icon={faEdit}></FontAwesomeIcon>Front-end web
               development
             </h5>
+            <p>
+              I have experience building websites using HTML, CSS, and JavaScript.
+              I am familiar with React.js.<br />
+              <strong>My current experience and skills in front-end are</strong>
+              <ul>
+                <li>Intergrating external Rest APIs in the front-end</li>
+                <li>Translating UX designers, analysts and graphic artists work into a reliable web design </li>
+                <li>Full integration of tools like webpack</li>
+              </ul>
+            </p>
           </code>
         </div>
         <div className="col shadow border-end border-start col-sm-12 col-md-8 p-5 mb-3">
