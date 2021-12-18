@@ -19,7 +19,7 @@ function About() {
   return (
     <div className="container animate__animated animate__fadeInRight ">
       <div className="row">
-        <div className="col col-md-4 p-5 border-end shadow position-sticky top-0 start-0">
+        <div className="col col-md-4 p-5  position-sticky top-0 start-0">
           <h3 className="">About Me</h3>
           <code className="text-dark text-sm-center my-3">
             I enjoy creating things that solve problems. I am a full-stack
