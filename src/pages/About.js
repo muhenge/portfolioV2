@@ -23,7 +23,7 @@ function About() {
           <h3 className="">About Me</h3>
           <code className="text-dark text-sm-center my-3">
             I enjoy creating things that solve problems. I am a full-stack
-            developer with a passion for building things, I am currently working as a <strong>Backend Developer</strong>.
+            developer with a passion for building apps, I am currently working as a <strong>Backend Developer</strong>.
           </code>
           <h5 className="mt-4">What I can offer</h5>
           <code className="text-dark ">
@@ -76,6 +76,19 @@ function About() {
                   </div>
                 </a>
                 <a
+                  href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                  className="about-links"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="d-flex flex-column align-items-center justify-content-between p-2 text-dark ">
+                    <span>
+                    <i class="devicon-javascript-plain"></i>
+                    </span>
+                    <span className="text-dark">JavaScript</span>
+                  </div>
+                </a>
+                <a
                   href="https://en.wikipedia.org/wiki/HTML5"
                   className="about-links"
                   target="_blank"
@@ -121,6 +134,19 @@ function About() {
                       ></FontAwesomeIcon>
                     </span>
                     <span className="text-dark">Bootstrap</span>
+                  </div>
+                </a>
+                <a
+                  href="https://tailwindcss.com/"
+                  className="about-links"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="d-flex flex-column align-items-center justify-content-between p-2 text-dark">
+                    <span>
+                    <i class="devicon-tailwindcss-plain"></i>
+                    </span>
+                    <span className="text-dark">tailwindcss</span>
                   </div>
                 </a>
               </div>
@@ -228,7 +254,7 @@ function About() {
                   </div>
                 </a>
                 <a 
-                  href="" 
+                 
                   className="about-links"
                   href="https://mochajs.org/"
                   className="about-links"
@@ -242,7 +268,7 @@ function About() {
                   </div>
                   </a>
                   <a 
-                  href="" 
+                  
                   className="about-links"
                   href="https://rspec.info/"
                   className="about-links"
@@ -255,7 +281,20 @@ function About() {
                     <span className="text-dark">Rspec</span>
                   </div>
                   </a>
+
               </div>
+              <h4 className="text-dark my-3">OS</h4>
+              <div className="d-flex flex-row justify-content-around border-bottom p-5">
+                <a href="https://ubuntu.com/" className="about-links" target="_blank" rel="noopener noreferrer">
+                  <div className="d-flex flex-column align-items-center justify-content-between p-2 text-dark ">
+                    <span>
+                      <i class="devicon-ubuntu-plain"></i>
+                    </span>
+                    <span className="text-dark">Linux Ubuntu</span>
+                  </div>
+
+                </a>
+                </div>
             </div>
           </code>
         </div>
