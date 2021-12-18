@@ -17,3 +17,43 @@ a.link:active {
   background-color: black !important;
 }
 
+a.social:hover {
+  color: white !important;
+  background-color: black !important;
+}
+
+.top-stick {
+  position: sticky !important;
+  position: -webkit-sticky;
+  top: 5rem;
+  overflow-y: auto;
+  height: calc(100vh - 5rem);
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: black;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 2px grey; 
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}

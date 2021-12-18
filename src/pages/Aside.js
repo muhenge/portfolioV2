@@ -2,7 +2,7 @@ import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { faHome, faAddressCard, faLaptopCode, faEnvelopeOpenText } from '@fortawesome/free-solid-svg-icons'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-
+import { faGithub, faLinkedin, faGitlab } from '@fortawesome/free-brands-svg-icons'
 import './Styles/aside.css'
 import './Styles/about.css'
 import classes from './Aside.module.css'
@@ -32,10 +32,29 @@ export default function Aside() {
                     </li>
                 </ul>
                 <div>
-                    <a href="test" className="btn btn-outline-dark btn-block text-center" id="LinkedIn"></a>
-                </div>
-                <hr/>
+                    <a href="https://github.com/muhenge" className="my-2  btn-block text-center d-flex align-items-center social" target="_blank"
+                  rel="noopener noreferrer" >
+                    <FontAwesomeIcon icon={faGithub} size="2x"></FontAwesomeIcon> 
+                    <span class="">GitHub</span>
                     
+                    </a>
+                </div>
+                <div>
+                    <a href="https://gitlab.com/Herveee" className="my-2  btn-block text-center d-flex align-items-center social" target="_blank"
+                  rel="noopener noreferrer" >
+                    <FontAwesomeIcon icon={faGitlab} size="2x"></FontAwesomeIcon> 
+                    <span class="">GitLab</span>
+                    
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.linkedin.com/in/mugunga-herve-a62a0ab9/" className="my-2  btn-block text-center d-flex align-items-center social" target="_blank"
+                  rel="noopener noreferrer" >
+                    <FontAwesomeIcon icon={faLinkedin} size="2x"></FontAwesomeIcon> 
+                    <span class="">LinkedIn</span>
+                    
+                    </a>
+                </div>
             </div>
         </div>
     
