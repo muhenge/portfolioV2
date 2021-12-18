@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
-import { faHome, faAddressCard, faLaptopCode, faEnvelopeOpenText } from '@fortawesome/free-solid-svg-icons'
+import { faHome, faAddressCard, faLaptopCode, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faGitlab } from '@fortawesome/free-brands-svg-icons'
 import './Styles/aside.css'
@@ -27,11 +27,25 @@ export default function Aside() {
                         <FontAwesomeIcon icon={faLaptopCode}></FontAwesomeIcon> <span class="ms-1 d-none d-sm-inline">Side Projects</span>
                         </Link>
                     </li>
-                    <li class="nav-item nav-item border border-3 w-100 mb-5 ">
-                        <Link to="/contact" class="nav-link text-dark">
-                        <FontAwesomeIcon icon={faEnvelopeOpenText}></FontAwesomeIcon> <span class="ms-1 d-none d-sm-inline">Get in touch</span> </Link>
-                    </li>
+                    
                 </ul>
+                <h3 className="text-dark">Get in touch</h3>
+                <div>
+                    <a href="mailto:mugunga5@gmail.com" className="my-2  btn-block text-center d-flex align-items-center social" target="_blank"
+                  rel="noopener noreferrer" >
+                    <FontAwesomeIcon icon={faEnvelope} size="2x"></FontAwesomeIcon> 
+                    <span class="">email</span>
+                    
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.linkedin.com/in/mugunga-herve-a62a0ab9/" className="my-2  btn-block text-center d-flex align-items-center social" target="_blank"
+                  rel="noopener noreferrer" >
+                    <FontAwesomeIcon icon={faLinkedin} size="2x"></FontAwesomeIcon> 
+                    <span class="">LinkedIn</span>
+                    
+                    </a>
+                </div>
                 <div>
                     <a href="https://github.com/muhenge" className="my-2  btn-block text-center d-flex align-items-center social" target="_blank"
                   rel="noopener noreferrer" >
@@ -48,14 +62,7 @@ export default function Aside() {
                     
                     </a>
                 </div>
-                <div>
-                    <a href="https://www.linkedin.com/in/mugunga-herve-a62a0ab9/" className="my-2  btn-block text-center d-flex align-items-center social" target="_blank"
-                  rel="noopener noreferrer" >
-                    <FontAwesomeIcon icon={faLinkedin} size="2x"></FontAwesomeIcon> 
-                    <span class="">LinkedIn</span>
-                    
-                    </a>
-                </div>
+                
             </div>
         </div>
     
