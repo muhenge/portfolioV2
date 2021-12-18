@@ -1,0 +1,31 @@
+a.about-links {
+  color: black;
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  transition-property: box-shadow,border-radius;
+  
+}
+
+a.about-links:hover {
+  border-radius: 2px;
+  -webkit-box-shadow: 2px 0px 4px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 0px 4px 0px rgba(0,0,0,0.75);
+box-shadow: 2px 0px 4px 0px rgba(0,0,0,0.75);
+}
+
+i.devicon-ruby-plain,
+i.devicon-rails-plain,
+i.devicon-nestjs-plain,
+i.devicon-laravel-plain,
+i.devicon-express-original,
+i.devicon-postgresql-plain,
+i.devicon-mysql-plain,
+i.devicon-git-plain,
+i.devicon-github-plain,
+i.devicon-jest-plain,
+i.devicon-mocha-plain {
+  font-size: 60px;
+}

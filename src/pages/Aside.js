@@ -3,7 +3,8 @@ import { Link, NavLink } from 'react-router-dom'
 import { faHome, faAddressCard, faLaptopCode, faEnvelopeOpenText } from '@fortawesome/free-solid-svg-icons'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 
-import './aside.css'
+import './Styles/aside.css'
+import './Styles/about.css'
 import classes from './Aside.module.css'
 export default function Aside() {
   return (
