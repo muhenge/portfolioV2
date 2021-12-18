@@ -66,7 +66,7 @@ function About() {
                 >
                   <div className="d-flex flex-column align-items-center justify-content-between p-2 text-dark ">
                     <span>
-                    <i class="devicon-javascript-plain"></i>
+                    <i class="devicon-javascript-plain colored"></i>
                     </span>
                     <span className="text-dark">Javascript</span>
                   </div>
@@ -79,7 +79,7 @@ function About() {
                 >
                   <div className="d-flex flex-column align-items-center justify-content-between p-2 text-dark ">
                     <span>
-                    <i class="devicon-ruby-plain"></i>
+                    <i class="devicon-ruby-plain colored"></i>
 
                     </span>
                     <span className="text-dark">Ruby</span>
@@ -93,7 +93,7 @@ function About() {
                 >
                   <div className="d-flex flex-column align-items-center justify-content-between p-2 text-dark ">
                     <span>
-                    <i class="devicon-typescript-plain"></i>
+                    <i class="devicon-typescript-plain colored"></i>
 
 
                     </span>
@@ -111,10 +111,7 @@ function About() {
                 >
                   <div className="d-flex flex-column align-items-center justify-content-between p-2 text-dark ">
                     <span>
-                      <FontAwesomeIcon
-                        icon={faReact}
-                        size="4x"
-                      ></FontAwesomeIcon>
+                    <i class="devicon-react-original colored"></i>
                     </span>
                     <span className="text-dark">React</span>
                   </div>
@@ -128,7 +125,7 @@ function About() {
                 >
                   <div className="d-flex flex-column align-items-center justify-content-between p-2 text-dark ">
                     <span>
-                    <i class="devicon-javascript-plain"></i>
+                    <i class="devicon-javascript-plain colored"></i>
                     </span>
                     <span className="text-dark">JavaScript DOM</span>
                   </div>
@@ -141,10 +138,7 @@ function About() {
                 >
                   <div className="d-flex flex-column align-items-center justify-content-between p-2 text-dark">
                     <span>
-                      <FontAwesomeIcon
-                        icon={faHtml5}
-                        size="4x"
-                      ></FontAwesomeIcon>
+                    <i class="devicon-html5-plain colored"></i>
                     </span>
                     <span className="text-dark">HTML 5</span>
                   </div>
@@ -157,10 +151,7 @@ function About() {
                 >
                   <div className="d-flex flex-column align-items-center justify-content-between p-2 text-dark">
                     <span>
-                      <FontAwesomeIcon
-                        icon={faCss3}
-                        size="4x"
-                      ></FontAwesomeIcon>
+                    <i class="devicon-css3-plain colored"></i>
                     </span>
                     <span className="text-dark">CSS 3</span>
                   </div>
@@ -173,10 +164,7 @@ function About() {
                 >
                   <div className="d-flex flex-column align-items-center justify-content-between p-2 text-dark">
                     <span>
-                      <FontAwesomeIcon
-                        icon={faBootstrap}
-                        size="4x"
-                      ></FontAwesomeIcon>
+                    <i class="devicon-bootstrap-plain colored"></i>
                     </span>
                     <span className="text-dark">Bootstrap</span>
                   </div>
@@ -189,7 +177,7 @@ function About() {
                 >
                   <div className="d-flex flex-column align-items-center justify-content-between p-2 text-dark">
                     <span>
-                    <i class="devicon-tailwindcss-plain"></i>
+                    <i class="devicon-tailwindcss-plain colored"></i>
                     </span>
                     <span className="text-dark">tailwindcss</span>
                   </div>
@@ -206,7 +194,7 @@ function About() {
                 >
                   <div className="d-flex flex-column align-items-center justify-content-between p-2 text-dark ">
                     <span>
-                      <i class="devicon-rails-plain"></i>
+                      <i class="devicon-rails-plain colored"></i>
                     </span>
                     <span className="text-dark">Ruby on Rails</span>
                   </div>
@@ -219,7 +207,7 @@ function About() {
                 >
                   <div className="d-flex flex-column align-items-center justify-content-between p-2 text-dark">
                     <span>
-                      <i class="devicon-laravel-plain"></i>
+                      <i class="devicon-laravel-plain colored"></i>
                     </span>
                     <span className="text-dark">PHP Laravel</span>
                   </div>
@@ -232,7 +220,7 @@ function About() {
                 >
                   <div className="d-flex flex-column align-items-center justify-content-between p-2 text-dark">
                     <span>
-                      <i class="devicon-nestjs-plain"></i>
+                      <i class="devicon-nestjs-plain colored"></i>
                     </span>
                     <span className="text-dark">Nest.js</span>
                   </div>
@@ -245,7 +233,7 @@ function About() {
                 >
                   <div className="d-flex flex-column align-items-center justify-content-between p-2 text-dark">
                     <span>
-                      <i class="devicon-express-original"></i>
+                      <i class="devicon-express-original colored"></i>
                     </span>
                     <span className="text-dark">Express.js</span>
                   </div>
@@ -263,7 +251,7 @@ function About() {
                 >
                   <div className="d-flex flex-column align-items-center justify-content-between p-2 text-dark ">
                     <span>
-                      <i class="devicon-postgresql-plain"></i>
+                      <i class="devicon-postgresql-plain colored"></i>
                     </span>
                     <span className="text-dark">PostgreSQL</span>
                   </div>
@@ -276,7 +264,7 @@ function About() {
                 >
                   <div className="d-flex flex-column align-items-center justify-content-between p-2 text-dark ">
                     <span>
-                      <i class="devicon-mysql-plain"></i>
+                      <i class="devicon-mysql-plain colored"></i>
                     </span>
                     <span className="text-dark">MySQL</span>
                   </div>
@@ -293,7 +281,7 @@ function About() {
                 >
                   <div className="d-flex flex-column align-items-center justify-content-between p-2 text-dark ">
                     <span>
-                    <i class="devicon-jest-plain"></i>
+                    <i class="devicon-jest-plain colored"></i>
                     </span>
                     <span className="text-dark">Jest</span>
                   </div>
@@ -307,7 +295,7 @@ function About() {
                   rel="noopener noreferrer"  >
                   <div className="d-flex flex-column align-items-center justify-content-between p-2 text-dark ">
                     <span>
-                    <i class="devicon-mocha-plain"></i>
+                    <i class="devicon-mocha-plain colored"></i>
                     </span>
                     <span className="text-dark">Mocha</span>
                   </div>
@@ -333,7 +321,7 @@ function About() {
                 <a href="https://ubuntu.com/" className="about-links" target="_blank" rel="noopener noreferrer">
                   <div className="d-flex flex-column align-items-center justify-content-between p-2 text-dark ">
                     <span>
-                      <i class="devicon-ubuntu-plain"></i>
+                      <i class="devicon-ubuntu-plain colored"></i>
                     </span>
                     <span className="text-dark">Linux Ubuntu</span>
                   </div>
