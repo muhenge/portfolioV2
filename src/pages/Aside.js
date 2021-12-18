@@ -6,13 +6,14 @@ import { faGithub, faLinkedin, faGitlab } from '@fortawesome/free-brands-svg-ico
 import './Styles/aside.css'
 import './Styles/about.css'
 import classes from './Aside.module.css'
+import me from './image/me.jpg'
 export default function Aside() {
   return (
     <>
       <div className="col-auto col-md-3 col-xl-2 px-sm-2 border-end px-0 bg-light animate__animated animate__fadeInLeft position-sticky top-0 start-0 h-100">
             <div class="d-flex flex-column align-items-center align-content-between align-items-sm-start px-3 pt-2 text-white min-vh-100">
                 <NavLink  to="/" class="d-flex align-items-center pb-3 mb-md-0 pb-3 menu me-md-auto text-dark text-decoration-none">
-                    <FontAwesomeIcon icon={faHome} size="2x"></FontAwesomeIcon> <span class="fs-5 d-none d-sm-inline">NGENZI M. Herve</span>
+                    <img src={me} alt="me" className="img-thumbnail" />
                 </NavLink>
                 <hr />
                 <ul class="nav nav-pills flex-column w-100" id="menu">
