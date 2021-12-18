@@ -56,8 +56,52 @@ function About() {
           </h4>
           <code>
             <div className="flex align-items-center flex-column align-content-between flex-nowrap">
-              
-              <h4 className="text-dark y-3">Front-end</h4>
+              <h4 className="text-dark  my-3">Languages</h4>
+              <div className="d-flex flex-row justify-content-around  border-bottom p-5">
+              <a
+                  href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                  className="about-links"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="d-flex flex-column align-items-center justify-content-between p-2 text-dark ">
+                    <span>
+                    <i class="devicon-javascript-plain"></i>
+                    </span>
+                    <span className="text-dark">Javascript</span>
+                  </div>
+                </a>
+                <a
+                  href="https://www.ruby-lang.org/en/"
+                  className="about-links"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="d-flex flex-column align-items-center justify-content-between p-2 text-dark ">
+                    <span>
+                    <i class="devicon-ruby-plain"></i>
+
+                    </span>
+                    <span className="text-dark">Ruby</span>
+                  </div>
+                </a>
+                <a
+                  href="https://www.typescriptlang.org/"
+                  className="about-links"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="d-flex flex-column align-items-center justify-content-between p-2 text-dark ">
+                    <span>
+                    <i class="devicon-typescript-plain"></i>
+
+
+                    </span>
+                    <span className="text-dark">TypeScript</span>
+                  </div>
+                </a>
+              </div>
+              <h4 className="text-dark my-3">Front-end</h4>
               <div className="d-flex flex-row justify-content-around  border-bottom p-5">
                 <a
                   href="https://reactjs.org/"
@@ -75,6 +119,7 @@ function About() {
                     <span className="text-dark">React</span>
                   </div>
                 </a>
+                
                 <a
                   href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
                   className="about-links"
@@ -85,7 +130,7 @@ function About() {
                     <span>
                     <i class="devicon-javascript-plain"></i>
                     </span>
-                    <span className="text-dark">JavaScript</span>
+                    <span className="text-dark">JavaScript DOM</span>
                   </div>
                 </a>
                 <a
@@ -167,7 +212,7 @@ function About() {
                   </div>
                 </a>
                 <a
-                  href="https://nestjs.com/"
+                  href="https://laravel.com/"
                   className="about-links"
                   target="_blank"
                   rel="noopener noreferrer"

@@ -16,6 +16,13 @@ a.about-links:hover {
 box-shadow: 2px 0px 4px 0px rgba(0,0,0,0.75);
 }
 
+a.about-links:visited {
+  border-radius: 2px;
+  -webkit-box-shadow: 2px 0px 4px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 0px 4px 0px rgba(0,0,0,0.75);
+box-shadow: 2px 0px 4px 0px rgba(0,0,0,0.75);
+}
+
 i.devicon-ruby-plain,
 i.devicon-rails-plain,
 i.devicon-nestjs-plain,
@@ -29,6 +36,7 @@ i.devicon-jest-plain,
 i.devicon-mocha-plain,
 i.devicon-javascript-plain,
 i.devicon-tailwindcss-plain,
-i.devicon-ubuntu-plain {
+i.devicon-ubuntu-plain,
+i.devicon-typescript-plain {
   font-size: 60px;
 }
