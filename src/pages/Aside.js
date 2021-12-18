@@ -2,7 +2,7 @@ import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { faHome, faAddressCard, faLaptopCode, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin, faGitlab } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedin, faGitlab, faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 import './Styles/aside.css'
 import './Styles/about.css'
 import classes from './Aside.module.css'
@@ -17,12 +17,12 @@ export default function Aside() {
                 </NavLink>
                 <hr />
                 <ul class="nav nav-pills flex-column w-100" id="menu">
-                    <li className="nav-item border border-3 menu w-100 mb-5">
+                    <li className="nav-item border border-3 menu w-100 mb-4">
                         <Link to="/about" class="nav-link text-dark link">
                             <FontAwesomeIcon icon={faAddressCard}></FontAwesomeIcon> <span class="ms-1 d-none d-sm-inline">Me & Skills</span> 
                         </Link>
                     </li>
-                    <li className="nav-item nav-item border border-3 w-100 mb-5">
+                    <li className="nav-item nav-item border border-3 w-100 mb-4">
                         <Link to="/projects" class="nav-link text-dark link">
                         <FontAwesomeIcon icon={faLaptopCode}></FontAwesomeIcon> <span class="ms-1 d-none d-sm-inline">Side Projects</span>
                         </Link>
@@ -62,7 +62,14 @@ export default function Aside() {
                     
                     </a>
                 </div>
-                
+                <div>
+                    <a href="https://wa.me/250788630438" className="my-2  btn-block text-center d-flex align-items-center social" target="_blank"
+                  rel="noopener noreferrer" >
+                    <FontAwesomeIcon icon={faWhatsapp} size="2x"></FontAwesomeIcon> 
+                    <span class="">WhatsApp</span>
+                    
+                    </a>
+                </div>
             </div>
         </div>
     
