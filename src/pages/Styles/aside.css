@@ -53,3 +53,13 @@ a.social:hover {
 ::-webkit-scrollbar {
   width: 10px;
 }
+
+.img-me {
+  border: 2px solid black !important;
+}
+
+.img-me:hover {
+  -webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75) !important;
+-moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75) !important;
+box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75) !important;
+}
