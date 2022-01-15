@@ -83,7 +83,7 @@ export default function Aside() {
           <div>
             <a
               href="mailto:mugunga5@gmail.com"
-              className="my-2  btn-block text-center d-flex align-items-center social"
+              className="my-2  btn-block text-center d-flex align-items-center"
               target="_blank"
               rel="noopener noreferrer"
             >
