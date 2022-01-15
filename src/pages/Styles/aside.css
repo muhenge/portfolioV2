@@ -71,3 +71,11 @@ a.social:hover {
     -moz-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.75) !important;
     box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.75) !important;
 }
+
+
+
+i.devicon-github-original,
+i.devicon-linkedin-plain,
+i.devicon-gitlab-plain {
+    font-size:35px;
+}

@@ -43,6 +43,43 @@ export default function Aside() {
                                                                                 </li> */}{" "}
           </ul>{" "}
           <h3 className="text-dark"> Get in touch </h3>{" "}
+          
+          <div>
+            <a
+              href="https://www.linkedin.com/in/mugunga-herve-a62a0ab9/"
+              className="my-2  btn-block text-center d-flex align-items-center about-links"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="devicon-linkedin-plain colored"></i>
+
+              <span class=""> LinkedIn </span>{" "}
+            </a>{" "}
+          </div>{" "}
+          <div>
+            <a
+              href="https://github.com/muhenge"
+              className="my-2  btn-block text-center d-flex align-items-center about-links"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="devicon-github-original colored"></i>
+
+              <span class=""> GitHub </span>{" "}
+            </a>{" "}
+          </div>{" "}
+          <div>
+            <a
+              href="https://gitlab.com/Herveee"
+              className="my-2  btn-block text-center d-flex align-items-center about-links"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="devicon-gitlab-plain colored"></i>
+
+              <span class=""> GitLab </span>{" "}
+            </a>{" "}
+          </div>{" "}
           <div>
             <a
               href="mailto:mugunga5@gmail.com"
@@ -56,46 +93,6 @@ export default function Aside() {
               <span class=""> email </span>{" "}
             </a>{" "}
           </div>{" "}
-          <div>
-            <a
-              href="https://www.linkedin.com/in/mugunga-herve-a62a0ab9/"
-              className="my-2  btn-block text-center d-flex align-items-center social"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon icon={faLinkedin} size="2x">
-                {" "}
-              </FontAwesomeIcon>{" "}
-              <span class=""> LinkedIn </span>{" "}
-            </a>{" "}
-          </div>{" "}
-          <div>
-            <a
-              href="https://github.com/muhenge"
-              className="my-2  btn-block text-center d-flex align-items-center social"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon icon={faGithub} size="2x">
-                {" "}
-              </FontAwesomeIcon>{" "}
-              <span class=""> GitHub </span>{" "}
-            </a>{" "}
-          </div>{" "}
-          <div>
-            <a
-              href="https://gitlab.com/Herveee"
-              className="my-2  btn-block text-center d-flex align-items-center social"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon icon={faGitlab} size="2x">
-                {" "}
-              </FontAwesomeIcon>{" "}
-              <span class=""> GitLab </span>{" "}
-            </a>{" "}
-          </div>{" "}
-          <div> </div>{" "}
         </div>{" "}
       </div>{" "}
     </>
