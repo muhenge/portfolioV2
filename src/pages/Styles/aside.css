@@ -38,7 +38,7 @@ a.social:hover {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: grey;
+    background: black;
 }
 
 ::-webkit-scrollbar-thumb:hover {

@@ -20,13 +20,22 @@ import me from "./image/me.jpg";
 export default function Aside() {
   return (
     <>
-      <div className="col-auto col-md-3 col-xl-2 px-sm-2 border-end px-0 bg-light animate__animated animate__fadeInLeft position-sticky top-0 start-0 h-100">
+      <div className="col-auto col-md-3 col-xl-2 px-sm-2 border-end px-0 bg-light animate__animated animate__fadeInLeft position-sticky position-sm-sticky top-sm-0 top- top-0 start-0 h-100">
         <div class="d-flex flex-column align-items-center align-content-between align-items-sm-start px-3 pt-2 text-white min-vh-100">
           <NavLink
             to="/"
             class="d-flex align-items-center pb-3 mb-md-0 pb-3 menu me-md-auto text-dark text-decoration-none"
           >
-            <img src={me} alt="me" className="img-thumbnail img-me" />
+            <img
+              src={me}
+              alt="me"
+              className="img-thumbnail img-me d-none d-md-block"
+            />
+
+            <span className=" d-sm-block d-md-none d-lg-none">
+            <FontAwesomeIcon icon={faHome}> </FontAwesomeIcon>{" "}
+            </span>
+           
           </NavLink>{" "}
           <hr />
           <ul class="nav nav-pills flex-column w-100" id="menu">
@@ -37,13 +46,12 @@ export default function Aside() {
               </Link>{" "}
             </li>{" "}
             {/* <li className="nav-item nav-item border border-3 w-100 mb-4">
-                                                                                    <Link to="/projects" class="nav-link text-dark link">
-                                                                                    <FontAwesomeIcon icon={faLaptopCode}></FontAwesomeIcon> <span class="ms-1 d-none d-sm-inline">Side Projects</span>
-                                                                                    </Link>
-                                                                                </li> */}{" "}
+                                                                                                                        <Link to="/projects" class="nav-link text-dark link">
+                                                                                                                        <FontAwesomeIcon icon={faLaptopCode}></FontAwesomeIcon> <span class="ms-1 d-none d-sm-inline">Side Projects</span>
+                                                                                                                        </Link>
+                                                                                                                    </li> */}{" "}
           </ul>{" "}
-          <h3 className="text-dark"> Get in touch </h3>{" "}
-          
+          <h3 className="text-dark d-none d-md-block"> Get in touch </h3>{" "}
           <div>
             <a
               href="https://www.linkedin.com/in/mugunga-herve-a62a0ab9/"
@@ -51,9 +59,8 @@ export default function Aside() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i class="devicon-linkedin-plain colored"></i>
-
-              <span class=""> LinkedIn </span>{" "}
+              <i class="devicon-linkedin-plain colored"> </i>{" "}
+              <span class="ms-1 d-none d-sm-inline"> LinkedIn </span>{" "}
             </a>{" "}
           </div>{" "}
           <div>
@@ -63,9 +70,8 @@ export default function Aside() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i class="devicon-github-original colored"></i>
-
-              <span class=""> GitHub </span>{" "}
+              <i class="devicon-github-original colored"> </i>{" "}
+              <span class="ms-1 d-none d-sm-inline"> GitHub </span>{" "}
             </a>{" "}
           </div>{" "}
           <div>
@@ -75,9 +81,8 @@ export default function Aside() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i class="devicon-gitlab-plain colored"></i>
-
-              <span class=""> GitLab </span>{" "}
+              <i class="devicon-gitlab-plain colored"> </i>{" "}
+              <span class="ms-1 d-none d-sm-inline"> GitLab </span>{" "}
             </a>{" "}
           </div>{" "}
           <div>
@@ -90,7 +95,7 @@ export default function Aside() {
               <FontAwesomeIcon icon={faEnvelope} size="2x">
                 {" "}
               </FontAwesomeIcon>{" "}
-              <span class=""> email </span>{" "}
+              <span class="ms-1 d-none d-sm-inline"> email </span>{" "}
             </a>{" "}
           </div>{" "}
         </div>{" "}

@@ -15,11 +15,11 @@ import {
 import Ruby from "react-devicon/ruby/original";
 
 function About() {
-  const rubybar = 60;
+  
   return (
-    <div className="container animate__animated animate__fadeInRight ">
+    <>
       <div className="row">
-        <div className="col col-md-6 p-5  position-sticky top-0 start-0">
+        <div className="col col-md-6 p-md-5 position-md-sticky top-0 start-0">
           <h3 className="">About Me</h3>
           <code className="text-dark text-sm-center my-3">
             I enjoy creating things that solve problems. I am a full-stack
@@ -50,13 +50,13 @@ function About() {
             </p>
           </code>
         </div>
-        <div className="col col-sm-12 border-start col-md-6 p-5 mb-3 top-stick">
+        <div className="col col-sm-12 border-start col-md-6 p-md-5 mb-md-3 top-stick">
           <h4 className="mb-3">
             Here are a few technologies I’ve been working with recently
           </h4>
           <code>
             <div className="flex align-items-center flex-column align-content-between flex-nowrap">
-              <h4 className="text-dark  my-3">Languages</h4>
+              <h4 className="text-dark my-3">Languages</h4>
               <div className="d-flex flex-row justify-content-around  border-bottom p-5">
               <a
                   href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
@@ -332,7 +332,7 @@ function About() {
           </code>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 
