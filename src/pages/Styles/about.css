@@ -43,3 +43,7 @@ i.devicon-bootstrap-plain {
   font-size: 60px;
   
 }
+
+.index-top {
+  z-index: 1;
+}

@@ -19,7 +19,7 @@ function About() {
   return (
     <div className="container animate__animated animate__fadeInRight ">
       <div className="row">
-        <div className="col col-md-6 p-5  position-sticky top-0 start-0">
+        <div className="col-12 col-md-6 col-sm-12 p-md-5  position-md-sticky top-0 start-0">
           <h3 className="">About Me</h3>
           <code className="text-dark text-sm-center my-3">
             I enjoy creating things that solve problems. I am a full-stack
@@ -50,7 +50,7 @@ function About() {
             </p>
           </code>
         </div>
-        <div className="col col-sm-12 border-start col-md-6 p-5 mb-3 top-stick">
+        <div className="col-12 col-md-6 col-sm-12 border-start col-md-6 p-md-5 mb-3 top-stick opacity-100 index-top">
           <h4 className="mb-3">
             Here are a few technologies I’ve been working with recently
           </h4>
