@@ -1,73 +1,82 @@
 a {
-  text-decoration: none !important;
-  color: black !important;
-  padding: 5px;
-
+    text-decoration: none !important;
+    color: black !important;
+    padding: 5px;
 }
 
 a.link:hover {
-  text-decoration: none !important;
-  color: white !important;
-  background-color: black !important;
+    text-decoration: none !important;
+    color: white !important;
+    background-color: black !important;
 }
 
 a.link:active {
-  text-decoration: none !important;
-  color: white !important;
-  background-color: black !important;
+    text-decoration: none !important;
+    color: white !important;
+    background-color: black !important;
 }
 
 a.social:hover {
-  color: white !important;
-  background-color: black !important;
+    color: white !important;
+    background-color: black !important;
 }
 
 .top-stick {
-  position: sticky !important;
-  position: -webkit-sticky;
-  top: 5rem;
-  overflow-y: auto;
-  height: calc(100vh - 5rem);
+    position: sticky !important;
+    position: -webkit-sticky;
+    top: 5rem;
+    overflow-y: auto;
+    height: calc(100vh - 5rem);
 }
 
 ::-webkit-scrollbar {
-  width: 10px;
+    width: 10px;
 }
 
 ::-webkit-scrollbar-track {
-  background: white;
+    background: white;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: black;
+    background: black;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+    background: black;
 }
 
 ::-webkit-scrollbar-track {
-  border: 1px solid black; 
+    border: 1px solid black;
 }
 
 ::-webkit-scrollbar {
-  width: 10px;
+    width: 10px;
 }
 
 .img-me {
-  border: 2px solid black !important;
+    border: 2px solid black !important;
 }
 
 .img-me {
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
 }
 
 .img-me:hover {
-  -webkit-filter: grayscale(0); /* Safari 6.0 - 9.0 */
-  filter: grayscale(0);
-  -webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75) !important;
-  -moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75) !important;
-  box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75) !important;
+    -webkit-filter: grayscale(0);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(0);
+    -webkit-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.75) !important;
+    -moz-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.75) !important;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.75) !important;
+}
+
+
+
+i.devicon-github-original,
+i.devicon-linkedin-plain,
+i.devicon-gitlab-plain {
+    font-size:35px;
 }
 
