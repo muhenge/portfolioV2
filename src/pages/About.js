@@ -15,9 +15,8 @@ import {
 import Ruby from "react-devicon/ruby/original";
 
 function About() {
-  const rubybar = 60;
   return (
-    <div className="container animate__animated animate__fadeInRight ">
+    <div className="animate__animated animate__fadeInRight ">
       <div className="row">
         <div className="col-12 col-md-6 col-sm-12 p-md-5  position-md-sticky top-0 start-0">
           <h3 className="">About Me</h3>
@@ -50,7 +49,7 @@ function About() {
             </p>
           </code>
         </div>
-        <div className="col-12 col-md-6 col-sm-12 border-start col-md-6 p-md-5 mb-3 top-stick opacity-100 index-top">
+        <div className="col-12 col-md-6 col-sm-12 border-start p-5 mb-3 top-stick opacity-100 index-top">
           <h4 className="mb-3">
             Here are a few technologies I’ve been working with recently
           </h4>

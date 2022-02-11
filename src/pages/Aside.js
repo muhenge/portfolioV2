@@ -20,7 +20,7 @@ import me from "./image/me.jpg";
 export default function Aside() {
   return (
     <>
-      <div className="col col-xl-2 px-sm-2 border-end px-0 bg-light animate__animated animate__fadeInLeft position-sticky top-0 start-0 vh-100">
+      <div className="col col-xl-2 px-sm-2 border-end px-0 bg-light animate__animated animate__fadeInLeft position-sticky top-0 start-0 vh-100 bg-blur index-before">
         <div class="d-flex flex-column align-items-center align-content-between align-items-sm-start px-3 pt-2 text-white position-sticky start-0 top-0 vh-100">
           <NavLink
             to="/"

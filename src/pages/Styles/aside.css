@@ -80,3 +80,10 @@ i.devicon-gitlab-plain {
     font-size:35px;
 }
 
+.bg-blur {
+    background-color: rgba(0,0,0, 0.4);
+  }
+
+.index-before {
+    z-index: 1;
+  }
