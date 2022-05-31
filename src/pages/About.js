@@ -27,25 +27,18 @@ function About() {
           <h5 className="mt-4">What I can offer</h5>
           <code className="text-dark ">
           <h5>
-              <FontAwesomeIcon icon={faLaptopCode}></FontAwesomeIcon>Back-end web
-              development
+              <FontAwesomeIcon icon={faLaptopCode} className="mx-3"></FontAwesomeIcon>as a Back-end web
+              developer
             </h5>
             <p>
-              I use back-end frameworks to build web applications. I am familiar with, <strong>Object Oriented Programming, MVC design patterns</strong> and <strong> RESTful APIs</strong>.
+              I use back-end frameworks like <strong>Ruby on Rails</strong>, <strong>PHP laravel</strong> or <strong>Nest.js</strong> to build RESTful API applications. I am proficent with <strong> MVC design patterns</strong>, ORM like <strong>Active Record</strong> and <strong>TypeORM</strong> to build database driven applications.
             </p>
             <h5>
-              <FontAwesomeIcon icon={faEdit}></FontAwesomeIcon>Front-end web
-              development
+              <FontAwesomeIcon icon={faEdit} className='mx-3'></FontAwesomeIcon> as a Front-end web
+              developer
             </h5>
             <p>
-              I have experience building websites using HTML, CSS, and JavaScript.
-              I am familiar with React.js.<br />
-              <strong>My current experience and skills in front-end are</strong>
-              <ul>
-                <li>Intergrating external Rest APIs in the front-end</li>
-                <li>Translating UX designers, analysts and graphic artists work into a reliable web design </li>
-                <li>Full integration of tools like webpack</li>
-              </ul>
+              <strong>React.js</strong> and <strong>Vue.js</strong>. I am familiar with <strong>HTML5</strong>, <strong>CSS3</strong>, <strong>Bootstrap</strong> and <strong>Materialize</strong> to build responsive web applications and <strong>Redux.js</strong> or <strong>Vuex.js</strong> to integrate with content from a RESTful API.
             </p>
           </code>
         </div>
@@ -115,7 +108,7 @@ function About() {
                     <span className="text-dark">React</span>
                   </div>
                 </a>
-                
+
                 <a
                   href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
                   className="about-links"
@@ -182,7 +175,7 @@ function About() {
                   </div>
                 </a>
               </div>
-              
+
               <h4 className="text-dark my-3">Back-end</h4>
               <div className="d-flex flex-row justify-content-around border-bottom p-5">
                 <a
@@ -239,7 +232,7 @@ function About() {
                 </a>
               </div>
 
-             
+
               <h4 className="text-dark my-3">Databases</h4>
               <div className="d-flex flex-row justify-content-around border-bottom p-5">
                 <a
@@ -269,7 +262,7 @@ function About() {
                   </div>
                 </a>
               </div>
-             
+
               <h4 className="text-dark my-3">Testing</h4>
               <div className="d-flex flex-row justify-content-evenly border-bottom p-5">
                 <a
@@ -285,8 +278,8 @@ function About() {
                     <span className="text-dark">Jest</span>
                   </div>
                 </a>
-                <a 
-                 
+                <a
+
                   className="about-links"
                   href="https://mochajs.org/"
                   className="about-links"
@@ -299,8 +292,8 @@ function About() {
                     <span className="text-dark">Mocha</span>
                   </div>
                   </a>
-                  <a 
-                  
+                  <a
+
                   className="about-links"
                   href="https://rspec.info/"
                   className="about-links"
@@ -308,7 +301,7 @@ function About() {
                   rel="noopener noreferrer"  >
                   <div className="d-flex flex-column align-items-center justify-content-between p-2 text-dark ">
                     <span>
-                    
+
                     </span>
                     <span className="text-dark">Rspec</span>
                   </div>
