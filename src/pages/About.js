@@ -21,8 +21,11 @@ function About() {
         <div className="col-12 col-md-6 col-sm-12 p-md-5  position-md-sticky top-0 start-0">
           <h3 className="">About Me</h3>
           <code className="text-dark text-sm-center my-3">
-            I enjoy creating things that solve problems. I am a full-stack
-            developer with a passion for building apps, I am currently working as a <strong>Backend Developer</strong>.
+            
+Sure, I can help you rephrase that. Here is a possible rephrasing:
+
+I am a full-stack developer with a passion for <strong>solving problems</strong> and building great apps. I am proficient in a variety of <strong>backend</strong> and <strong>frontend</strong> technologies, including:
+I am currently working as a backend developer, but I am also interested in frontend development.
           </code>
           <h5 className="mt-4">What I can offer</h5>
           <code className="text-dark ">
@@ -31,14 +34,14 @@ function About() {
               developer
             </h5>
             <p>
-              I use back-end frameworks like <strong>Ruby on Rails</strong>, <strong>PHP laravel</strong> or <strong>Nest.js</strong> to build RESTful API applications. I am proficent with <strong> MVC design patterns</strong>, ORM like <strong>Active Record</strong> and <strong>TypeORM</strong> to build database driven applications.
+              I use back-end frameworks like <strong>Ruby on Rails</strong>, <strong>PHP laravel</strong> or <strong>Nest.js</strong> to build RESTful API applications. <strong> MVC design patterns</strong>, ORM like <strong>Active Record</strong> and <strong>TypeORM</strong> to applications.
             </p>
             <h5>
               <FontAwesomeIcon icon={faEdit} className='mx-3'></FontAwesomeIcon> as a Front-end web
               developer
             </h5>
             <p>
-              <strong>React.js</strong> and <strong>Vue.js</strong>. I am familiar with <strong>HTML5</strong>, <strong>CSS3</strong>, <strong>Bootstrap</strong> and <strong>Materialize</strong> to build responsive web applications and <strong>Redux.js</strong> or <strong>Vuex.js</strong> to integrate with content from a RESTful API.
+              <strong>React.js</strong> and <strong>Vue.js</strong>.
             </p>
           </code>
         </div>
