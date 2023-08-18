@@ -22,7 +22,6 @@ function About() {
           <h3 className="">About Me</h3>
           <code className="text-dark text-sm-center my-3">
             
-Sure, I can help you rephrase that. Here is a possible rephrasing:
 
 I am a full-stack developer with a passion for <strong>solving problems</strong> and building great apps. I am proficient in a variety of <strong>backend</strong> and <strong>frontend</strong> technologies, including:
 I am currently working as a backend developer, but I am also interested in frontend development.
@@ -42,7 +41,7 @@ I am currently working as a backend developer, but I am also interested in front
             </h5>
             <p>
               <strong>React.js</strong> and <strong>Vue.js</strong>.
-              
+
             </p>
           </code>
         </div>
