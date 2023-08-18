@@ -42,6 +42,7 @@ I am currently working as a backend developer, but I am also interested in front
             </h5>
             <p>
               <strong>React.js</strong> and <strong>Vue.js</strong>.
+              
             </p>
           </code>
         </div>
