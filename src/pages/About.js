@@ -21,27 +21,36 @@ function About() {
         <div className="col-12 col-md-6 col-sm-12 p-md-5  position-md-sticky top-0 start-0">
           <h3 className="">About Me</h3>
           <code className="text-dark text-sm-center my-3">
-            
-
-I am a full-stack developer with a passion for <strong>solving problems</strong> and building great apps. I am proficient in a variety of <strong>backend</strong> and <strong>frontend</strong> technologies, including:
-I am currently working as a backend developer, but I am also interested in frontend development.
+            I derive satisfaction from crafting solutions to complex problems.
+            As an experienced full-stack developer, I am primarily engaged in
+            backend development at present.
           </code>
-          <h5 className="mt-4">What I can offer</h5>
+          <h5 className="mt-4">What I Offer</h5>
           <code className="text-dark ">
-          <h5>
-              <FontAwesomeIcon icon={faLaptopCode} className="mx-3"></FontAwesomeIcon>as a Back-end web
-              developer
+            <h5>
+              <FontAwesomeIcon
+                icon={faLaptopCode}
+                className="mx-3"
+              ></FontAwesomeIcon>
+              as a Back-end web developer
             </h5>
             <p>
-              I use back-end frameworks like <strong>Ruby on Rails</strong>, <strong>PHP laravel</strong> or <strong>Nest.js</strong> to build RESTful API applications. <strong> MVC design patterns</strong>, ORM like <strong>Active Record</strong> and <strong>TypeORM</strong> to applications.
+              I specialize in utilizing robust frameworks like{" "}
+              <strong>Ruby on Rails</strong>, <strong>PHP Laravel</strong> and{" "}
+              <strong>Node.js Frameworks like Express.js and Nestjs</strong>
             </p>
             <h5>
-              <FontAwesomeIcon icon={faEdit} className='mx-3'></FontAwesomeIcon> as a Front-end web
-              developer
+              <FontAwesomeIcon icon={faEdit} className="mx-3"></FontAwesomeIcon>{" "}
+              as a Front-end web developer
             </h5>
             <p>
-              <strong>React.js</strong> and <strong>Vue.js</strong>.
-
+              For frontend development, I excel in harnessing the power of{" "}
+              <strong>React.js</strong> to create intuitive user interfaces. I
+              integrate frontend components with backend systems seamlessly,
+              utilizing tools like Redux.js and Tanstack React query to manage
+              state effectively. Additionally, I prioritize delivering visually
+              appealing and responsive applications that offer an exceptional
+              user experience across various devices.
             </p>
           </code>
         </div>
@@ -53,7 +62,7 @@ I am currently working as a backend developer, but I am also interested in front
             <div className="flex align-items-center flex-column align-content-between flex-nowrap">
               <h4 className="text-dark  my-3">Languages</h4>
               <div className="d-flex flex-row justify-content-around  border-bottom p-5">
-              <a
+                <a
                   href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
                   className="about-links"
                   target="_blank"
@@ -61,7 +70,7 @@ I am currently working as a backend developer, but I am also interested in front
                 >
                   <div className="d-flex flex-column align-items-center justify-content-between p-2 text-dark ">
                     <span>
-                    <i class="devicon-javascript-plain colored"></i>
+                      <i class="devicon-javascript-plain colored"></i>
                     </span>
                     <span className="text-dark">Javascript</span>
                   </div>
@@ -74,8 +83,7 @@ I am currently working as a backend developer, but I am also interested in front
                 >
                   <div className="d-flex flex-column align-items-center justify-content-between p-2 text-dark ">
                     <span>
-                    <i class="devicon-ruby-plain colored"></i>
-
+                      <i class="devicon-ruby-plain colored"></i>
                     </span>
                     <span className="text-dark">Ruby</span>
                   </div>
@@ -88,9 +96,7 @@ I am currently working as a backend developer, but I am also interested in front
                 >
                   <div className="d-flex flex-column align-items-center justify-content-between p-2 text-dark ">
                     <span>
-                    <i class="devicon-typescript-plain colored"></i>
-
-
+                      <i class="devicon-typescript-plain colored"></i>
                     </span>
                     <span className="text-dark">TypeScript</span>
                   </div>
@@ -106,75 +112,9 @@ I am currently working as a backend developer, but I am also interested in front
                 >
                   <div className="d-flex flex-column align-items-center justify-content-between p-2 text-dark ">
                     <span>
-                    <i class="devicon-react-original colored"></i>
+                      <i class="devicon-react-original colored"></i>
                     </span>
                     <span className="text-dark">React</span>
-                  </div>
-                </a>
-
-                <a
-                  href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-                  className="about-links"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div className="d-flex flex-column align-items-center justify-content-between p-2 text-dark ">
-                    <span>
-                    <i class="devicon-javascript-plain colored"></i>
-                    </span>
-                    <span className="text-dark">JavaScript DOM</span>
-                  </div>
-                </a>
-                <a
-                  href="https://en.wikipedia.org/wiki/HTML5"
-                  className="about-links"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div className="d-flex flex-column align-items-center justify-content-between p-2 text-dark">
-                    <span>
-                    <i class="devicon-html5-plain colored"></i>
-                    </span>
-                    <span className="text-dark">HTML 5</span>
-                  </div>
-                </a>
-                <a
-                  href="https://en.wikipedia.org/wiki/CSS3"
-                  className="about-links"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div className="d-flex flex-column align-items-center justify-content-between p-2 text-dark">
-                    <span>
-                    <i class="devicon-css3-plain colored"></i>
-                    </span>
-                    <span className="text-dark">CSS 3</span>
-                  </div>
-                </a>
-                <a
-                  href="https://getbootstrap.com/"
-                  className="about-links"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div className="d-flex flex-column align-items-center justify-content-between p-2 text-dark">
-                    <span>
-                    <i class="devicon-bootstrap-plain colored"></i>
-                    </span>
-                    <span className="text-dark">Bootstrap</span>
-                  </div>
-                </a>
-                <a
-                  href="https://tailwindcss.com/"
-                  className="about-links"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div className="d-flex flex-column align-items-center justify-content-between p-2 text-dark">
-                    <span>
-                    <i class="devicon-tailwindcss-plain colored"></i>
-                    </span>
-                    <span className="text-dark">tailwindcss</span>
                   </div>
                 </a>
               </div>
@@ -235,7 +175,6 @@ I am currently working as a backend developer, but I am also interested in front
                 </a>
               </div>
 
-
               <h4 className="text-dark my-3">Databases</h4>
               <div className="d-flex flex-row justify-content-around border-bottom p-5">
                 <a
@@ -249,6 +188,19 @@ I am currently working as a backend developer, but I am also interested in front
                       <i class="devicon-postgresql-plain colored"></i>
                     </span>
                     <span className="text-dark">PostgreSQL</span>
+                  </div>
+                </a>
+                <a
+                  href="https://www.mongodb.com/"
+                  className="about-links"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="d-flex flex-column align-items-center justify-content-between p-2 text-dark ">
+                    <span>
+                      <i class="devicon-mongodb-plain colored"></i>
+                    </span>
+                    <span className="text-dark">MongoDB</span>
                   </div>
                 </a>
                 <a
@@ -276,53 +228,36 @@ I am currently working as a backend developer, but I am also interested in front
                 >
                   <div className="d-flex flex-column align-items-center justify-content-between p-2 text-dark ">
                     <span>
-                    <i class="devicon-jest-plain colored"></i>
+                      <i class="devicon-jest-plain colored"></i>
                     </span>
                     <span className="text-dark">Jest</span>
                   </div>
                 </a>
                 <a
-
                   className="about-links"
                   href="https://mochajs.org/"
-                  className="about-links"
                   target="_blank"
-                  rel="noopener noreferrer"  >
+                  rel="noopener noreferrer"
+                >
                   <div className="d-flex flex-column align-items-center justify-content-between p-2 text-dark ">
                     <span>
-                    <i class="devicon-mocha-plain colored"></i>
+                      <i class="devicon-mocha-plain colored"></i>
                     </span>
                     <span className="text-dark">Mocha</span>
                   </div>
-                  </a>
-                  <a
-
+                </a>
+                <a
                   className="about-links"
                   href="https://rspec.info/"
-                  className="about-links"
                   target="_blank"
-                  rel="noopener noreferrer"  >
+                  rel="noopener noreferrer"
+                >
                   <div className="d-flex flex-column align-items-center justify-content-between p-2 text-dark ">
-                    <span>
-
-                    </span>
+                    <span></span>
                     <span className="text-dark">Rspec</span>
                   </div>
-                  </a>
-
-              </div>
-              <h4 className="text-dark my-3">OS</h4>
-              <div className="d-flex flex-row justify-content-around border-bottom p-5">
-                <a href="https://ubuntu.com/" className="about-links" target="_blank" rel="noopener noreferrer">
-                  <div className="d-flex flex-column align-items-center justify-content-between p-2 text-dark ">
-                    <span>
-                      <i class="devicon-ubuntu-plain colored"></i>
-                    </span>
-                    <span className="text-dark">Linux Ubuntu</span>
-                  </div>
-
                 </a>
-                </div>
+              </div>
             </div>
           </code>
         </div>
