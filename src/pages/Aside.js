@@ -5,6 +5,7 @@ import {
   faAddressCard,
   faLaptopCode,
   faEnvelope,
+  faFileContract,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -12,6 +13,7 @@ import {
   faLinkedin,
   faGitlab,
   faWhatsapp,
+  faFile
 } from "@fortawesome/free-brands-svg-icons";
 import "./Styles/aside.css";
 import "./Styles/about.css";
@@ -35,7 +37,7 @@ export default function Aside() {
             
           </NavLink>{" "}
           <hr />
-          <ul class="nav nav-pills flex-column w-100" id="menu">
+          <ul class="nav nav-pills flex-column" id="menu">
             <li className="nav-item border border-3 menu w-100 mb-4">
               <Link to="/about" class="nav-link text-dark link">
                 <FontAwesomeIcon icon={faAddressCard}> </FontAwesomeIcon>{" "}
@@ -84,7 +86,7 @@ export default function Aside() {
           </div>{" "}
           <div>
             <a
-              href="mailto:mugunga5@gmail.com"
+              href="mailto:ngenziherve1@gmail.com"
               className="my-2  btn-block text-center d-flex align-items-center"
               target="_blank"
               rel="noopener noreferrer"
@@ -93,6 +95,19 @@ export default function Aside() {
                 {" "}
               </FontAwesomeIcon>{" "}
               <span class="ms-1 d-none d-sm-inline"> email </span>{" "}
+            </a>{" "}
+          </div>{" "}
+          <div>
+            <a
+              href="https://drive.google.com/file/d/11T2TNnizwuqC-kjudDA7uyqQ-2aL-rVJ/view?usp=drive_link"
+              className="my-2  btn-block text-center d-flex align-items-center about-links"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+               <FontAwesomeIcon icon={faFileContract} size="2x">
+                {" "}
+              </FontAwesomeIcon>{" "}
+              <span class="ms-1 d-none d-sm-inline"> My resume </span>{" "}
             </a>{" "}
           </div>{" "}
         </div>{" "}
